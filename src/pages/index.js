@@ -4,6 +4,7 @@ import Layout from '../components/Layout'
 import Posts from '../components/Posts'
 import { graphql } from 'gatsby'
 import { RegVideo } from '../components/Complete'
+
 const IndexPage = ({ data }) => {
   const {
     allMdx: { nodes: posts },
